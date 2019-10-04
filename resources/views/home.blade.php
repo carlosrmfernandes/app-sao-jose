@@ -28,24 +28,26 @@
                     <p style="text-align: center" id="nenhum_dado"></p>
 
                     <div class="table-responsive-xl" id="data">
-                        <table style="width:100%">
+                        <table style="width:100%" >
+                            <tbody id="data-response-busca">
+                                <tr>
+                                    <td>Nome: <samp id="nome"></samp></td>
+                                    <td>Idade :12</td>
+                                    <td>Sexo: M</td>
+                                </tr>
+                                <tr>
+                                    <td>Exame :12324</td>
+                                    <td>Medico : Fernandes</td>
+                                    <td>Comentario: fazer o Raio X</td>
+                                </tr>
+                                <tr>
+                                    <td>Cidade: Luanda</td>
+                                    <td>Nacionalidade: Angolana</td>
+                                    <td>Estado Civil: Casado</td>
 
-                            <tr>
-                                <td>Nome : Carlos</td>
-                                <td>Idade :12</td>
-                                <td>Sexo: M</td>
-                            </tr>
-                            <tr>
-                                <td>Exame :12324</td>
-                                <td>Medico : Fernandes</td>
-                                <td>Comentario: fazer o Raio X</td>
-                            </tr>
-                            <tr>
-                                <td>Cidade: Luanda</td>
-                                <td>Nacionalidade: Angolana</td>
-                                <td>Estado Civil: Casado</td>
+                                </tr>
+                            </tbody>
 
-                            </tr>
                         </table>
                         <table class="table table-striped table-hover">
                             <thead class>

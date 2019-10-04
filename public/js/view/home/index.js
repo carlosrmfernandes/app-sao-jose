@@ -16,6 +16,8 @@ $(document).ready(function () {
                     $("#nenhum_dado").text("Nenhum Hospital Disponível ");
                     $('#nenhum_dado').show();
                 } else {
+                    var str = parse(data.dados_paciente)[2][5];
+                    $('#nome').append(str.split("^")[0]);
                     $('#data-busca tr').detach();
                     $('#nenhum_dado').hide();
                     $('#data').show();
