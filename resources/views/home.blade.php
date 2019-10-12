@@ -32,19 +32,22 @@
                             <tbody id="data-response-busca">
                                 <tr>
                                     <td>Nome: <samp id="nome"></samp></td>
-                                    <td>Idade :12</td>
-                                    <td>Sexo: M</td>
+                                    <td>Sobrenome: <samp id="sobrenome"></samp></td>
+                                    <td>Data de Nascimento: <samp id="data_nascimento"></samp></td>
+                                    <td>Cidade: <samp id="cidade"></samp></td>
                                 </tr>
                                 <tr>
-                                    <td>Exame :12324</td>
-                                    <td>Medico : Fernandes</td>
-                                    <td>Comentario: fazer o Raio X</td>
+                                    <td>Pais: <samp id="pais"></samp></td>
+                                    <td>Celular: <samp id="celular"></samp></td>
+                                    <td>Comentario Medico: <samp id="comentario"></samp></td>
+                                    <td>Exame: <samp id="exame"></samp></td>
+                                    
                                 </tr>
                                 <tr>
-                                    <td>Cidade: Luanda</td>
-                                    <td>Nacionalidade: Angolana</td>
-                                    <td>Estado Civil: Casado</td>
-
+                                    <td> Código de Exame: <samp id="codigo_exame"></samp></td>
+                                    <td>Prioridade: <samp id="prioridade"></samp></td>
+                                    <td>Titulo: <samp id="titulo"></samp></td>
+                                    <td>Medico: <samp id="medico_name"></samp></td>
                                 </tr>
                             </tbody>
 
@@ -52,8 +55,8 @@
                         <table class="table table-striped table-hover">
                             <thead class>
                                 <tr>
-                                    <th scope="col">Código Hospital</th>
-                                    <th scope="col">Hospital Estão Realizando o Exame</th>
+                                    <th scope="col">Código hospitalar</th>
+                                    <th scope="col">Hospital com à realização do exame</th>
                                 </tr>
                             </thead>
                             <tbody id="data-busca">
