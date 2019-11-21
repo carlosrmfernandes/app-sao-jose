@@ -26,8 +26,8 @@ $(document).ready(function () {
                     var str4_5 = parse(data.dados_paciente)[4];
                     var str4_16 = parse(data.dados_paciente)[4][16];
 
-                    $('#nome').html(str2_5.split("^")[0]);
-                    $('#sobrenome').html(str2_5.split("^")[1]);
+                    $('#nome').html(str2_5.split("^")[1]);
+                    $('#sobrenome').html(str2_5.split("^")[0]);
                     $('#data_nascimento').html(str2_7);
                     $('#cidade').html(str2_11.split("^")[0]);
                     $('#pais').html(str2_11.split("^")[5]);
@@ -95,5 +95,5 @@ function addDadosUser(data) {
 
 function formatDate(date) {
     var dateFormat = new Date(date);
-    return (dateFormat.getMonth() + 1) + '/' + dateFormat.getDate() + '/' + dateFormat.getFullYear();
+    return dateFormat.getDate() + '/' + (dateFormat.getMonth() + 1) + '/' + dateFormat.getFullYear();
 }
